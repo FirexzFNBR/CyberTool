@@ -1,8 +1,8 @@
 # CyberTool
 
-**CyberTool** is a collection of four Python-based cybersecurity utilities designed for learning, security testing, and everyday use in authorized environments.
+**CyberTool** is a collection of four python-based cybersecurity utilities designed for learning, security testing, and everyday use in authorized environments.
 
-The project brings together practical tools for password analysis, network scanning, file encryption, and basic web security checks — all in one place.
+The project brings together practical tools for password analysis, network scanning, file encryption, and basic web security checks.
 
 ## Tools
 
