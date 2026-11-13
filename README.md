@@ -8,10 +8,10 @@ The project brings together practical tools for password analysis, network scann
 
 | Tool | Directory | Description |
 |---|---|---|
-| **Password Checker** | `password_checker/` | Evaluates password strength by analyzing entropy, character diversity, and common patterns. |
-| **Port Scanner** | `port_scanner/` | Performs multithreaded TCP port scanning to identify open ports on authorized networks. |
-| **Crypto Tool** | `crypto_tool/` | Generates file hashes and supports file encryption and decryption using AES-256-GCM. |
-| **Web Security Scanner** | `web_vuln_scanner/` | Checks HTTP security headers, cookie configurations, and TLS certificate validity. |
+| **Password Checker** | `passchecker/` | Evaluates password strength by analyzing entropy, character diversity, and common patterns. |
+| **Port Scanner** | `portscan/` | Performs multithreaded TCP port scanning to identify open ports on authorized networks. |
+| **Crypto Tool** | `crypto/` | Generates file hashes and supports file encryption and decryption using AES-256-GCM. |
+| **Web Security Scanner** | `wvscan/` | Checks HTTP security headers, cookie configurations, and TLS certificate validity. |
 
 ## Legal Notice
 
@@ -36,7 +36,7 @@ By using this project, you are responsible for ensuring that all tests are perfo
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/your-username/cybertool.git
+git clone https://github.com/FirexzFNBR/cybertool.git
 cd cybertool
 pip install -r requirements.txt
 ```
