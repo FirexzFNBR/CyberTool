@@ -50,7 +50,7 @@ Each tool can be executed independently from its own directory.
 Analyze password strength:
 
 ```bash
-python password_checker/password_checker.py
+python passchecker/passchecker.py
 ```
 
 **2. Port Scanner**
@@ -58,7 +58,7 @@ python password_checker/password_checker.py
 Scan TCP ports on your own network:
 
 ```bash
-python port_scanner/port_scanner.py --host 192.168.0.1 --ports 1-1024 --i-have-authorization
+python portscan/portscan.py --host 192.168.0.1 --ports 1-1024 --i-have-authorization
 ```
 
 **3. Crypto Tool**
@@ -66,13 +66,13 @@ python port_scanner/port_scanner.py --host 192.168.0.1 --ports 1-1024 --i-have-a
 Calculate the SHA-256 hash of a file:
 
 ```bash
-python crypto_tool/crypto_tool.py hash --file documento.pdf --algo sha256
+python crypto/crypto.py hash --file document.pdf --algo sha256
 ```
 
 Encrypt a file using a password:
 
 ```bash
-python crypto_tool/crypto_tool.py encrypt --file segredo.txt --password "your-password"
+python crypto/crypto.py encrypt --file secret.txt --password "your-password"
 ```
 
 **4. Web Security Scanner**
@@ -80,7 +80,7 @@ python crypto_tool/crypto_tool.py encrypt --file segredo.txt --password "your-pa
 Check the security configuration of a website you own or are authorized to test:
 
 ```bash
-python web_vuln_scanner/web_vuln_scanner.py --url https://yourwebsite.com
+python wvscan/wvscan.py --url https://example.com
 ```
 
 ## Project Goals
